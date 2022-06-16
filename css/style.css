@@ -180,6 +180,9 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button {
@@ -203,6 +206,20 @@ body {
 }
 
 /* section features*/
+
+.features-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .features {
   padding-top: 94px;
@@ -366,7 +383,6 @@ body {
 }
 
 .text-project {
-  padding-top: 20px;
   padding-bottom: 20px;
   padding-inline: 24px;
   border: 1px solid #eeeeee;
